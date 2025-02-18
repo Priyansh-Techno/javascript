@@ -1,2 +1,2 @@
 
-// console.log(id === anotherid);
+// console.log(Math);
