@@ -55,6 +55,27 @@ console.log(typeof user);
 console.log(typeof heroes);
 
 
+// Stack (Primitive , Heap (Non-Primitive)
+let myYoutubeName = "hi"
+
+let anotherName = "bye"
+anotherName="hello"
+console.log(anotherName);
+
+let userone={
+    email:"Use@gmail.com",
+    upiid:124
+}
+
+let usertwo= userone
+
+usertwo.email="Pg@gmail.com"
+
+console.log(userone.email);// if we will put inverted commas it will print the original value
+console.log(usertwo.email);
+
+
+
 
 
 
